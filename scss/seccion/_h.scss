@@ -1,0 +1,25 @@
+@import '../general/color';
+@import '../general/extend';
+
+
+h1 {
+    color: $rojo;
+    @extend %flex-center-center;
+    padding-top: 20px;
+}
+
+h2 {
+    color: $rojo;
+    @extend %flex-center-center;
+}
+
+h3 {
+    color: $rojo;
+    @extend %flex-center-center;
+    padding-top: 100px;
+}
+
+h4 {
+    color: $rojo;
+    @extend %flex-center-center;
+}

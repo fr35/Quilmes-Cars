@@ -1,5 +1,7 @@
 @import '../scss/seccion/header';
 @import '../scss/general/color';
+@import '../scss/seccion/h';
+
 
 
 
@@ -10,4 +12,13 @@
     margin:0%;
     padding: 0%;
     box-sizing: border-box;
+}
+
+main {
+    background-color: $negro;
+}
+
+.carousel-home {
+    @extend %flex-center-center;
+    padding-top: 20px;
 }
