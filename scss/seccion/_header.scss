@@ -1,0 +1,27 @@
+@import '../general/color';
+@import '../general/extend.scss';
+
+
+
+header {
+    background-color: $rojo;
+    @extend %flex-around;
+    nav {
+        @extend %flex-center-center;
+        ul {
+            margin-top: 1rem;
+            li {
+                @extend %inline-block;
+                padding: 5px 30px;
+                a {
+                    text-decoration: none;
+                    color: $blanco;
+                    &:hover {
+                        color: $blanco;
+                        border-bottom: 2px solid $blanco;
+                    }
+                }
+            }
+        }
+    }
+}

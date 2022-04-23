@@ -1,0 +1,40 @@
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header {
+  background-color: #dc3545;
+}
+header nav ul {
+  margin-top: 1rem;
+}
+header nav ul li {
+  padding: 5px 30px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #f8f9fa;
+}
+header nav ul li a:hover {
+  color: #f8f9fa;
+  border-bottom: 2px solid #f8f9fa;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=style.css.map */
