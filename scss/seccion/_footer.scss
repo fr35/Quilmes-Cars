@@ -1,0 +1,30 @@
+@import '../general/color';
+@import '../general/extend';
+
+
+footer {
+    background-color: $rojo;
+    @extend %flex-around;
+    img {
+        @extend %flex-center-center;
+        padding-top: 10%;
+    }
+    ul {
+        li {
+            text-decoration: none;
+            list-style: none;
+            color: $blanco;
+            @extend %flex-center-center;
+            a {
+                text-decoration: none;
+                color: $blanco;
+            }
+        }
+        .tittle-footer {
+            padding-top: 5%;
+            padding-bottom: 2%;
+            font-size: 20px;
+        }
+        
+    }
+}

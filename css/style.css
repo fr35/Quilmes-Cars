@@ -1,10 +1,10 @@
-.carousel-home, h4, h3, h2, h1, header nav {
+.carousel-home, footer ul li, footer img, h4, h3, h2, h1, header nav {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-header {
+footer, header {
   display: flex;
   justify-content: space-around;
 }
@@ -15,6 +15,9 @@ header nav ul li {
 
 header {
   background-color: #dc3545;
+}
+header img {
+  padding-top: 5%;
 }
 header nav ul {
   margin-top: 1rem;
@@ -31,13 +34,13 @@ header nav ul li a:hover {
   border-bottom: 2px solid #f8f9fa;
 }
 
-.carousel-home, h4, h3, h2, h1, header nav {
+.carousel-home, footer ul li, footer img, h4, h3, h2, h1, header nav {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-header {
+footer, header {
   display: flex;
   justify-content: space-around;
 }
@@ -62,6 +65,42 @@ h3 {
 
 h4 {
   color: #dc3545;
+}
+
+.carousel-home, footer ul li, footer img, header nav, h1, h2, h3, h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer, header {
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+footer {
+  background-color: #dc3545;
+}
+footer img {
+  padding-top: 10%;
+}
+footer ul li {
+  text-decoration: none;
+  list-style: none;
+  color: #f8f9fa;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #f8f9fa;
+}
+footer ul .tittle-footer {
+  padding-top: 5%;
+  padding-bottom: 2%;
+  font-size: 20px;
 }
 
 * {

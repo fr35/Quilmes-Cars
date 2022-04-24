@@ -6,6 +6,9 @@
 header {
     background-color: $rojo;
     @extend %flex-around;
+    img {
+        padding-top: 5%;
+    }
     nav {
         @extend %flex-center-center;
         ul {
