@@ -1,0 +1,21 @@
+@import '../general/color';
+@import '../general/extend';
+
+
+.autos-tittle {
+    font-weight: bold;
+    font-size: 20px;
+    color: $negro;
+}
+
+.autos-secondary {
+    font-weight: 300;
+    color: $gris;
+    font-size: 16px;
+}
+
+.autos-price {
+    font-weight: 400;
+    color: $rojo;
+    font-size: 18px;
+}

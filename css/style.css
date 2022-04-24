@@ -103,6 +103,39 @@ footer ul .tittle-footer {
   font-size: 20px;
 }
 
+.carousel-home, header nav, h1, h2, h3, h4, footer img, footer ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header, footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+.autos-tittle {
+  font-weight: bold;
+  font-size: 20px;
+  color: #212529;
+}
+
+.autos-secondary {
+  font-weight: 300;
+  color: #6c757d;
+  font-size: 16px;
+}
+
+.autos-price {
+  font-weight: 400;
+  color: #dc3545;
+  font-size: 18px;
+}
+
 * {
   margin: 0%;
   padding: 0%;
