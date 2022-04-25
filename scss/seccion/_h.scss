@@ -17,9 +17,14 @@ h3 {
     color: $rojo;
     @extend %flex-center-center;
     padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: 40px;
 }
 
 h4 {
     color: $rojo;
     @extend %flex-center-center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: 40px;
 }

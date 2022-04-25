@@ -27,3 +27,12 @@ main {
     @extend %flex-center-center;
     padding-top: 20px;
 }
+
+.cards {
+    @extend %flex-center;
+}
+
+
+.espacio-al-footer {
+    height: 100px;
+}
