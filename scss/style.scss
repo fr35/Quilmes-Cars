@@ -31,14 +31,20 @@ main {
     @extend %flex-center-center;
 }
 
+.row {
+    p {
+        margin-bottom: 0%
+    }
+}
 .cards {
     @extend %flex-center-center;
+
 }
 
 
 
 .espacio-al-footer {
-    height: 100px;
+    height: 200px;
 }
 
 .box {
@@ -50,7 +56,6 @@ input.src {
     font-size: 14px;
     border-radius: 15px;
     color: $blanco;
-    
 }
 
 .pagination {
