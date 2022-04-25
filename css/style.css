@@ -1,9 +1,4 @@
-.cards {
-  display: flex;
-  justify-content: center;
-}
-
-.pagination, .carousel-0km, .carousel-home, footer ul li, footer img, h4, h3, h2, h1, header nav {
+.pagination, .cards, .carousel-0km, .carousel-home, footer ul li, footer img, h4, h3, h2, h1, header nav {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,12 +34,7 @@ header nav ul li a:hover {
   border-bottom: 2px solid #f8f9fa;
 }
 
-.cards {
-  display: flex;
-  justify-content: center;
-}
-
-.pagination, .carousel-0km, .carousel-home, footer ul li, footer img, h4, h3, h2, h1, header nav {
+.pagination, .cards, .carousel-0km, .carousel-home, footer ul li, footer img, h4, h3, h2, h1, header nav {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,10 +52,12 @@ header nav ul li {
 h1 {
   color: #dc3545;
   padding-top: 20px;
+  font-weight: bold;
 }
 
 h2 {
   color: #dc3545;
+  font-weight: 200;
 }
 
 h3 {
@@ -82,12 +74,7 @@ h4 {
   font-size: 40px;
 }
 
-.cards {
-  display: flex;
-  justify-content: center;
-}
-
-.pagination, .carousel-0km, .carousel-home, footer ul li, footer img, header nav, h1, h2, h3, h4 {
+.pagination, .cards, .carousel-0km, .carousel-home, footer ul li, footer img, header nav, h1, h2, h3, h4 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -126,12 +113,7 @@ footer ul .text-footer {
   padding-top: 5%;
 }
 
-.cards {
-  display: flex;
-  justify-content: center;
-}
-
-.pagination, .carousel-0km, .carousel-home, header nav, h1, h2, h3, h4, footer img, footer ul li {
+.pagination, .cards, .carousel-0km, .carousel-home, header nav, h1, h2, h3, h4, footer img, footer ul li {
   display: flex;
   justify-content: center;
   align-items: center;
