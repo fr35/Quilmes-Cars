@@ -27,6 +27,9 @@ main {
     @extend %flex-center-center;
     padding-top: 20px;
 }
+.carousel-0km {
+    @extend %flex-center-center;
+}
 
 .cards {
     @extend %flex-center;
@@ -35,4 +38,20 @@ main {
 
 .espacio-al-footer {
     height: 100px;
+}
+
+.box {
+    position: absolute;
+}
+input.src {
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 14px;
+    border-radius: 15px;
+    color: $blanco;
+    
+}
+
+.pagination {
+    @extend %flex-center-center;
 }

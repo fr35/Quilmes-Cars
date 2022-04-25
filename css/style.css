@@ -3,7 +3,7 @@
   justify-content: center;
 }
 
-.carousel-home, footer ul li, footer img, h4, h3, h2, h1, header nav {
+.pagination, .carousel-0km, .carousel-home, footer ul li, footer img, h4, h3, h2, h1, header nav {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,7 +44,7 @@ header nav ul li a:hover {
   justify-content: center;
 }
 
-.carousel-home, footer ul li, footer img, h4, h3, h2, h1, header nav {
+.pagination, .carousel-0km, .carousel-home, footer ul li, footer img, h4, h3, h2, h1, header nav {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,7 +87,7 @@ h4 {
   justify-content: center;
 }
 
-.carousel-home, footer ul li, footer img, header nav, h1, h2, h3, h4 {
+.pagination, .carousel-0km, .carousel-home, footer ul li, footer img, header nav, h1, h2, h3, h4 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -122,13 +122,16 @@ footer ul .tittle-footer {
   padding-bottom: 2%;
   font-size: 20px;
 }
+footer ul .text-footer {
+  padding-top: 5%;
+}
 
 .cards {
   display: flex;
   justify-content: center;
 }
 
-.carousel-home, header nav, h1, h2, h3, h4, footer img, footer ul li {
+.pagination, .carousel-0km, .carousel-home, header nav, h1, h2, h3, h4, footer img, footer ul li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -177,6 +180,18 @@ main {
 
 .espacio-al-footer {
   height: 100px;
+}
+
+.box {
+  position: absolute;
+}
+
+input.src {
+  padding: 9px 10px 9px 32px;
+  outline: none;
+  font-size: 14px;
+  border-radius: 15px;
+  color: #f8f9fa;
 }
 
 /*# sourceMappingURL=style.css.map */
