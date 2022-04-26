@@ -79,6 +79,11 @@ h4 {
   font-size: 40px;
 }
 
+h5 {
+  color: #dc3545;
+  font-weight: 400;
+}
+
 .pagination, .cards, .carousel-0km, .carousel-home, footer ul li, footer img, header nav, h1, h2, .h2-verde, h3, h4 {
   display: flex;
   justify-content: center;
