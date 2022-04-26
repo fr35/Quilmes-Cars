@@ -13,7 +13,12 @@ h2 {
     color: $rojo;
     @extend %flex-center-center;
     font-weight: 200;
+}
 
+.h2-verde {
+    color: $verde;
+    @extend %flex-center-center;
+    font-weight: 200;
 }
 
 h3 {

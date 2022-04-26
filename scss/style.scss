@@ -4,15 +4,6 @@
 @import '../scss/seccion/footer';
 @import '../scss/seccion/autos';
 
-
-
-
-
-
-
-
-
-
 * {
     margin:0%;
     padding: 0%;
@@ -60,4 +51,16 @@ input.src {
 
 .pagination {
     @extend %flex-center-center;
+}
+
+.espacio-100 {
+    height: 100px;
+}
+.espacio-50 {
+    height: 50px;
+}
+
+.article {
+    color: $blanco;
+    font-family: 'Courier New', Courier, monospace;
 }
