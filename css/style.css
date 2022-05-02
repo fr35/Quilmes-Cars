@@ -1,6 +1,3 @@
-.disclaimer {
-  display: none;
-}
 .pagination, .cards, .carousel-0km, .carousel-home, footer ul li, footer img, h4, h3, .h2-verde, h2, h1, header nav {
   display: flex;
   justify-content: center;
