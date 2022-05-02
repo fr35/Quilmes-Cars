@@ -3,7 +3,9 @@
   justify-content: center;
   align-items: center;
 }
-
+.disclaimer {
+  display: none;
+}
 footer, header {
   display: flex;
   justify-content: space-around;
