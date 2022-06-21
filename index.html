@@ -19,6 +19,7 @@
     <title>Quilmes Cars/Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 </head>
 <body>
     <header>
@@ -48,6 +49,31 @@
             </ul>
         </nav>
     </header>
+
+    <!-- Modal -->
+    <i class="bi bi-cart-fill text-white h5 btn-carrito" target="_blank" data-bs-toggle="modal" data-bs-target="#carritoModal"><span class="badge bg-danger" id="contadorCarrito">0</span></i>
+    <div class="modal fade" id="carritoModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Carrito</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="carrito">
+                        
+                    </div>
+                    <p class="precioProducto"><strong>Precio Total: $<span id="precioTotal">0</span></strong></p>
+                    <div id="terminar" style="display: flex; justify-content: flex-end;"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir Comprando</button>
+                    <button type="button" class="btn btn-danger">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <main>
         <section>
@@ -108,26 +134,26 @@
 <!-- Enlaces a servicios -->
         <section>
             <h4>Servicios</h4>
-            <div class="row cards">
-                <div class="card me-2 cards" style="width: 18rem;">
+            <div class="cards">
+                <div class="card me-1 cards" style="width: 18rem;">
                     <img src="../fotos/asistencia-personal.jpeg" class="card-img-top" alt="asistencia personal - enlace">
                     <div class="card-body">
                         <a href="html/asistenciapersonal.html" class="btn btn-danger">Asistencia Personal</a>
                     </div>
                 </div>
-                <div class="card me-2 cards" style="width: 18rem;">
+                <div class="card me-1 cards" style="width: 18rem;">
                     <img src="../fotos/talleres-y-repuestos.gif" class="card-img-top" alt="talleres y repuestos - enlace">
                     <div class="card-body">
                         <a href="html/talleresyrepuestos.html" class="btn btn-danger">Talleres y Repuestos</a>
                     </div>
                 </div>
-                <div class="card me-2 cards" style="width: 18rem;">
+                <div class="card me-1 cards" style="width: 18rem;">
                     <img src="../fotos/financiacion.jpeg" class="card-img-top" alt="financiacion - enlace">
                     <div class="card-body">
                         <a href="html/financiacion.html" class="btn btn-danger">Financiación</a>
                     </div>
                 </div>
-                <div class="card me-2 cards" style="width: 18rem;">
+                <div class="card me-1 cards" style="width: 18rem;">
                     <img src="../fotos/accesorios.jpeg" class="card-img-top" alt="accesorios - enlace">
                     <div class="card-body">
                         <a href="html/accesorios.html" class="btn btn-danger">Accesorios</a>
@@ -138,8 +164,6 @@
 
         <div class="espacio-al-footer"></div>
     </main>
-
-    
 
     <footer class="">
         <div>
@@ -164,6 +188,9 @@
 <!-- Js-->
 <script src="js/stock.js"></script>
 <script src="js/app.js"></script>
+<script src="js/stock-nuevo.js"></script>
+<script src="js/stock-ofertas.js"></script>
+<script src="js/stock-usado.js"></script>
 
 </body>
 </html>
